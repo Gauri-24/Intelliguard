@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+tensorflow>=2.16        # use tensorflow-cpu on machines without a GPU
+cryptography>=42
+argon2-cffi>=23.1
+PyJWT>=2.8
+shap>=0.45
+lime>=0.2.0.1
+matplotlib>=3.8
+pytest>=8.0             # tests only
+nbformat>=5.9           # only needed to rebuild the notebook
